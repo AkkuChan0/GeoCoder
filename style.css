@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+*,
+*::before,
+*::after{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    align-items: center;
+    margin: 100px auto;
+    background-color: bisque;
+    width: 500px;
+    height: 600px;
+    padding: 15px;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+.input {
+    height: 40px;
+    width: 400px;
+    margin-left: 19px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.button {
+    height: 44px;
+    width: 44px;
+    border: 1px solid black;
+    border-radius: 25px;
+    transition: .3s ease;
+}
+
+.button:hover {
+    background-color: rgb(248, 212, 164);
+}
+
+.button:active {
+    background-color: darkgoldenrod;
+}
+
+.map-box {
+    width: 460px;
+    height: 460px;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.map {
+    width: 99%;
+    height: 99%;
+    border: 1px solid black;
+    transform: translateY(0%);
+    transition: .5 ease;
+}
+
+.history-box {
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.history-list {
+    padding-bottom: 5px;
+}
+
+.history-button {
+    background-color: rgb(255, 248, 238);
+    height: 22px;
+    width: 464px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+
+.history-button:hover {
+    background-color: rgb(248, 212, 164);
+}
+
+.history-button:active {
+    background-color: darkgoldenrod;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: .2s ease;
+}
+
+a:hover {
+    color: rgb(248, 212, 164);
+}
+
+a:active {
+    color: darkgoldenrod;
+}
+
+.history-content {
+    width: 460px;
+    height: 0;
+    font-size: 18px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    transition: .5s ease;
+    margin: 0 auto;
+}
+
+.content-active {
+    height: 1000px;
+}
+
+.history-list-active {
+    overflow: scroll;
+    height: 380px;
+}

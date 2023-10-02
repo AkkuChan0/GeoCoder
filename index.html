@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api-maps.yandex.ru/v3/?apikey=a586c526-6ee4-463a-9eb0-dc151e1b9862&lang=ru_RU">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Geocoder</title>
+</head>
+<body>
+    <section class="content">
+        <div class="input-box">
+            <input id="input_text" class="input" type="text" placeholder="Поиск места на карте">
+            <button class="button">
+                &#10148;
+            </button>
+        </div>
+        <section class="map-box">
+            <div id="map" class="map"></div>
+        </section>
+        <div class="history-box">
+            <button class="history-button">
+                &mdash;
+            </button>
+        </div>
+        <div class="history-content">
+            <ul class="history-list">
+                
+            </ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
